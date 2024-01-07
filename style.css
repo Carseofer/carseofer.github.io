@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'open sans';
+  background: f2f2f2;
+}
+
+img{
+  vertical-align: top;
+}
+
+/* Header */
+
+header{
+  width: 100%;
+  height:600px;
+  background: linear-gradient(to bottom,
+  rgba(211,135,20, .6),
+  rgba(29,241,171, .6),
+  rgba(7,109,150, .45)
+  ), url(img/fondo.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+nav{
+  width: 100%;
+  position: fixed;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,.5)
+}
+
+.nav1{
+  background: transparent;
+  height: 80px;
+  color:#fff;
+}
+
+.nav2{
+  background: f2f2f2;
+  height:100px;
+  color:#000;
+}
+
+.contenedor-nav{
+  display: flex;
+  margin: auto;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  max-width:1000px;
+  height:inherit;
+  overflow: hidden;
+}
+
+nav .enlaces a{
+  display: inline-block;
+  padding: 5px 0;
+  margin-right: 17px;
+  font-size: 17px;
+  font-weight: 300;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+  color: inherit;
+}
+
+nav .enlaces a:hover{
+  border-bottom: 3px solid #1498a4;
+  transition: 0.6s;
+}
+
+.logo, .logo img{ height:80px;}
+
+.icono{
+  display:none;
+  font-size: 24px;
+  padding: 23.5px 20px;
+}
+
+.textos{
+  width: 100%;
+  height: 100%;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color:#fff;
+  overflow: hidden;
+  text-align: center;
+}
+
+.textos>h1{font-size:80px;;}
+
+.textos>h2{font-size: 30px; font-weight: 300;}
+
+/* Main */
+
+.contenedor{
+  margin:auto;
+  padding: 60px 0;
+  width: 90%;
+  max-width: 1000px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.contenedor h3{
+  font-size: 33px;
+  color: rgb(219,144,.5);
+  margin-bottom: 10px;
+}
+
+.contenedor p{
+  font-weight: 300;
+  color: rgb(219,144,.5);
+}
+
+.biography{
+	text-align: justify;
+  	background-color: black;
+  	padding: 20px 20px;
+  	color: white;
+  	border-radius: 20px;
+}
+
+#white {
+	font-size: large;
+	color: white;
+	padding-bottom: 10px;
+}
+
+.botones-hobbies{
+  overflow: hidden;
+}
+
+.botones-hobbies li{
+  display: inline-block;
+  text-align: center;
+  margin-left: 10px;
+  margin-bottom: 45px;
+  padding: 6px 12px;
+  border: 1px solid rgb(219,144,.5);
+  list-style: none;
+  color: rgb(219,144,.5);
+}
+
+.botones-hobbies li:hover{
+  background: rgb(219,144,.5);
+  color:#fff;
+  cursor: pointer;
+}
+
+.botones-hobbies .active{
+  background: rgb(219,144,.5);
+  color:#fff;
+}
+
+.galeria-hobbies{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cont-hobbies{
+  width: 31%;
+  box-shadow: 0 0 6px 0 rgba(0,0,0,.5);
+  height:300px;
+  overflow: hidden;
+  margin-bottom: 45px;
+}
+
+.img-hobbies{
+  height: 90%;
+  width: 100%;
+}
+
+.img-hobbies img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.textos-hobbies{
+  height: 10%;
+}
+
+.textos-hobbies h4{
+  line-height: 30px;
+  font-weight: 300;
+}
+
+/* Footer */
+
+footer {
+	background-color:black;
+}
+
+.marca-logo{
+  width: 40%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.marca-logo img{
+  width: 40%;
+}
